@@ -251,7 +251,6 @@ html body .titulo-categoria{
 	html body .target_top_menu_categorias ul.desplegable li div {
 		width: 100%;
 		display: block;
-		background: #8c8c8c;
 		color: #fff;
 		font-weight: 400;
 		border-bottom: 1px solid #efefef;
@@ -265,6 +264,7 @@ html body .titulo-categoria{
 	    margin:0 !important;
       padding: 5% 10%;
       text-transform: uppercase;
+      text-align: center;
 	}
 
 	/*html body .target_top_menu_categorias ul.desplegable li div {

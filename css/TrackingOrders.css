@@ -43,9 +43,10 @@ html body #Contenedor {
     position: relative;
     top: -27px;
     margin-top: 43px;
-    /*color: #233a66;*/
-    color: #333;
-    font-weight: bold;
+    color: #818180;
+    /* font-weight: 600; */
+  font-size: 16px;
+  text-transform: uppercase;
   }
   .address-title{
     color: #233a66;
@@ -105,25 +106,25 @@ color: #818180 !important;
     /*margin-top: 12px;*/
     text-align: center;
     text-transform:none;
-    width: 80%;
+    width: 95%;
     line-height: 18px;
-    color: #000;
+    color: #818180;
 }
 
 /*MHTN: Online text mobile change ,by rahul.ranjan*/
 .text-recuerda{
-    font-size: 11px;
+    font-size: 12px;
     margin-right: 10px;
     text-align: center;
     text-transform:none;
-
+    line-height: 1.4em;
     margin-bottom: 10px;
     margin-top: -15px;
     font-weight: normal;
 }
 
 #tab_online_tienda2{
-  margin-bottom: 11px;
+
 }
 /*End New Style for "Estado de Entrega" */
 
@@ -260,9 +261,10 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 /* MHTN OrderTracking: solve issue 58 */
 
 .subtitle{
-  font-size: 16px; /*MHTN: OrderTracking by rahul.ranjan*/
-  font-weight: bold;
-  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4c4c4c;
+  text-transform: uppercase;
   margin: 30px 0 15px 0;
 }
 
@@ -280,7 +282,8 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 .p_NameStauts p{
 	/*MHTN Defect 540 by Rahul -desktop on 3rd Aug */
     width: 120% !important;
-    font-weight: bold;
+    font-weight: 600;
+    padding-top: 5px;
 }
 .ImgCenter img{
     height: 50px;
@@ -338,7 +341,6 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
   float: left;
   padding: 0;
   text-align: center;
-  border: 1px #ccc solid;
 }
 
 .detailTable th, .detailTable td {
@@ -346,12 +348,14 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 
 .detailTable th{
-  border-right: #999 1px solid;
   position: relative;
   text-align: center;
-  background: #ccc;
+  background: #f2f2f2;
   /*MHTN DEFECT: 75*/
   padding-right: 21px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
 }
 
 .detailTable th:last-child{
@@ -406,7 +410,7 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 
 .cloud a{
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /*Start MHTN Defect 436*/
@@ -485,7 +489,7 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 
 .cloud a{
   color: #FFF;
-  font-weight: bold; /* defect 642 */
+  font-weight: 600; /* defect 642 */
 }
 
 .step .circle{
@@ -512,7 +516,7 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 
 .step.active .circle .inner{
-  background: #2ce;
+  background: #efefef;
 }
 
 .step .circle .inner{
@@ -738,6 +742,7 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 #page{
   min-height: 400px;
+  width: 1060px;
 }
 
 .sectionHeader{
@@ -795,32 +800,50 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 
 .contentContainer .tabsTracking li{
-  width: 38%;
+  width: 30%;
   margin-right: 2%;
-  background: #d5d5d4;
+  background: #8c8c8c;
   float: left;
-  padding: 15px 0 15px 20px;
+  height: 40px;
   text-align: center;
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
-  line-height: 12px;
-  color: #333;
+  line-height: 40px;
+  color: white;
+  -webkit-border-top-left-radius: 16px;
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-topright: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .tabTrackingcontent{
   float: left;
-  background: #ebf6f8;
   width: 92%;
-  padding: 4%;
+  padding: 2em;
+  -webkit-border-radius: 16px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius: 16px;
+  -moz-border-radius-topleft: 0;
+  border-radius: 16px;
+  border-top-left-radius: 0;
+  background: #8c8c8c;
 }
 
 .tabTrackingcontent p{
   padding: 0 0 15px 0;
 }
 .contentContainer .tabsTracking li.active{
-  background: #ebf6f8;
+  -webkit-border-top-left-radius: 16px;
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-topright: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding-left: 20px;
 }
 
 .tableContainer{
@@ -840,22 +863,25 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 }
 .tableContainer .detailTable th{
   position: relative;
-  font-size: 12px;
-  font-weight: normal;
+  color: #8c8c8c;
+  font-size: 11px;
+  font-weight: 600;
   padding: 0px 15px;
-  border-right: #999 1px solid;
   padding: 5px 0;
+  text-transform: uppercase;
 }
 
 /* MTHN DEFECT : 62,80 */
 .tableContainer .detailTable th:not(:last-child), #detailsOrder #detailTableFull th:not(:last-child){
 	background-clip : padding-box;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 /* MTHN DEFECT : 62 */
 
 /*START MHTN Defect 257*/
 #orderTrakingTable tr{
-  color: #000000 !important;
+  color: #4c4c4c !important;
 }
 #orderTrakingTable td{
   border-right: 1px solid #999;
@@ -887,7 +913,7 @@ color: #818180 !important;  /*MHTN: 506 by Rahul*/
 .tableContainer .detailTable h2 {
   font-size: 14px;
   font-weight: bold;
-  color: #000;
+  color: #818180;
   padding: 10px 0;
 }
 
@@ -1080,13 +1106,13 @@ margin-right: -187px;
 
   /*Start MHTN Defect 408 */
   .address-title, .detalles-titulo {
-    background-color: #eaf3f9;
+    background-color: #f1f1f1;
     float: left;
     margin: 15px 0 !important;
     padding: 3%;
     width: 100%;
     /*MHTN  Defect 535 */
-    height: 8%;
+    height: 12%;
     /*MHTN  Defect 535 */
     font-size: 16px !important;
   }
@@ -1105,11 +1131,11 @@ margin-right: -187px;
 
 /*Start Defect 535 New style for titulo "Estado de entrega" */
   .Title_EstadodeEntrga{
-
     font-size: 14px !important;
-    font-weight: bold;
+    font-weight: 600;
     position: relative;
-    top: -34px;
+    text-transform: uppercase;
+    /*top: -34px;*/
     margin-left: 2px;  /*by rahul.ranjan to fix in mobile: 647*/
 
   }
@@ -1440,16 +1466,8 @@ margin-right: -187px;
 
   .contentContainer .tabsTracking li, .contentContainer .tabsTracking li.active{
     width: 100%;
-    background: #cccccc;
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5OTk5OTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top,  #cccccc 0%, #999999 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#999999));
-    background: -webkit-linear-gradient(top,  #cccccc 0%,#999999 100%);
-    background: -o-linear-gradient(top,  #cccccc 0%,#999999 100%);
-    background: -ms-linear-gradient(top,  #cccccc 0%,#999999 100%);
-    background: linear-gradient(to bottom,  #cccccc 0%,#999999 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#999999',GradientType=0 );
-    color: #383731;
+    background: #666;
+    color: #fff;
     text-align:left;
 
   }
@@ -1462,7 +1480,8 @@ margin-right: -187px;
 
   .tabcontent{
     width: 100%;
-    background: transparent;
+    background: rgba(201, 211, 222, 0.39);
+    padding: 2em 1em;
   }
   .tableContainer{
     height: auto;
@@ -1928,3 +1947,4 @@ margin-right: -187px;
 	width:12px;
 	margin: 3px 3px -2px 0;
 	}
+4c4c4c
